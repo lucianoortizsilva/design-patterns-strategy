@@ -21,14 +21,14 @@ public class Main {
 		final Defesa [] defesas = {new DefesaCascoVermelho(), new DefesaCascoVerde(), new DefesaBanana()};
 		final Strategy[] personagens = {new PersonagemYoshi(), new PersonagemMario(), new PersonagemBowser()};
 		
-		final Integer random = (int) (Math.random() * ataques.length);
 		
-		final Strategy personagem = personagens[random];
+		
+		final Strategy personagem = personagens[(int) (Math.random() * 3)];
 		personagem.nome();
 		personagem.atacar();
 		personagem.defender();
-		personagem.setAtacar(ataques[random]);
-		personagem.setDefender(defesas[random]);
+		personagem.setAtacar(ataques[(int) (Math.random() * 3)]);
+		personagem.setDefender(defesas[(int) (Math.random() * 3)]);
 		personagem.atacar();
 		personagem.defender();
 	}
