@@ -25,6 +25,8 @@ public class Main {
 		
 		final Strategy personagem = personagens[random];
 		personagem.nome();
+		personagem.atacar();
+		personagem.defender();
 		personagem.setAtacar(ataques[random]);
 		personagem.setDefender(defesas[random]);
 		personagem.atacar();
