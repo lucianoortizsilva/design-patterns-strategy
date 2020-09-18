@@ -30,6 +30,7 @@ ou 4 versões,alguns personagens também poderão receber o poder de voar durant
 É aí que entra o Strategy, com esse padrão outros tipos de objetos poderão reutilizar nossos comportamentos de atacar, defender,\
 e no futuro o de voar, pois a partir de agora eles não ficarão mais escondidos na nossa Classe Personagem,\
 possibilitando adicionar novos comportamentos sem modificar nenhuma de nossas classes de comportamento existente.\
+
 ![](https://github.com/lucianoortizsilva/design-patterns-strategy/blob/master/static/github/uml2.png)
 
 <hr>
