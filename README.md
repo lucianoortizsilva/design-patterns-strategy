@@ -1,4 +1,4 @@
-### Stack
+### Tech Stack
 - Java
 - Design Pattern
 
